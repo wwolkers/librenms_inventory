@@ -1,4 +1,4 @@
-import requests, re, configargparse, os, urllib3, json
+import requests, re, os, urllib3, json
 from pprint import pprint
 from unidecode import unidecode
 from ansible.plugins.inventory import BaseInventoryPlugin
