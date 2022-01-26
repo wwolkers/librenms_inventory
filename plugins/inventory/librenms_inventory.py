@@ -110,8 +110,6 @@ def _add_device(device, group_name, output):
         output[group_name]['hosts'].append( hostname ) #add current device to the group
 
 
-librenms_hostname = 'https://librenms.org'
-librenms_auth_token = 'yourapikeyhere'
 headers = {
         'X-Auth-Token': librenms_auth_token,
         }
