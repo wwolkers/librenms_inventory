@@ -55,3 +55,10 @@ homepage: https://github.com/wwolkers/librenms_inventory
 
 # The URL to the collection issue tracker
 issues: https://github.com/wwolkers/librenms_inventory/issues
+
+build_ignore:
+  - '<namespace>-<name>-*.tar.gz'
+  - .gitignore
+  - yamllint.yaml
+  - dist
+  - run
