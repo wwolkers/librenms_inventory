@@ -111,7 +111,7 @@ def _add_device(device, group_name, output):
 
 
 headers = {
-        'X-Auth-Token': librenms_auth_token,
+        'X-Auth-Token': self.librenms_auth_token,
         }
                 
 
@@ -152,7 +152,7 @@ class InventoryModule(BaseInventoryPlugin):
         if not validate_certs:
             urllib3.disable_warnings()
         #get device groups
-        url = librenms_hostname+'/api/v0/devicegroups'
+        url = self.librenms_hostname+'/api/v0/devicegroups'
         all_device_groups = _http_request(url)
         device_groups = _filter_device_groups(all_device_groups, args.group_names_regex)
 
