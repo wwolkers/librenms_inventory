@@ -19,7 +19,7 @@
         "tags": [
             "inventory librenms"
         ],
-        "version": "0.1.5"
+        "version": "0.1.6"
     },
     "file_manifest_file": {
         "chksum_sha256": null,

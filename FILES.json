@@ -15,6 +15,13 @@
             "name": "LICENSE"
         },
         {
+            "chksum_sha256": "cc07a46d1011ed6d6ac76925bf20875fe97decaf1d4c4f87611db0826df362ad",
+            "chksum_type": "sha256",
+            "format": 1,
+            "ftype": "file",
+            "name": "galaxy.yml~"
+        },
+        {
             "chksum_sha256": null,
             "chksum_type": null,
             "format": 1,
@@ -113,11 +120,18 @@
             "name": "README.md"
         },
         {
-            "chksum_sha256": "1cd1b9cd4787d2e250c18e8452640850ddda7c31a704ed170cf885ab72b65322",
+            "chksum_sha256": "c52030b9c12365548240a73053498bc6985588e32d251280c26868a9480b199b",
             "chksum_type": "sha256",
             "format": 1,
             "ftype": "file",
             "name": "MANIFEST.json"
+        },
+        {
+            "chksum_sha256": "1cd1b9cd4787d2e250c18e8452640850ddda7c31a704ed170cf885ab72b65322",
+            "chksum_type": "sha256",
+            "format": 1,
+            "ftype": "file",
+            "name": "MANIFEST.json~"
         },
         {
             "chksum_sha256": "79b6f8054f8ef5e9e78c18174bf57caf29b11410166b9268d6923e87520eb88f",
